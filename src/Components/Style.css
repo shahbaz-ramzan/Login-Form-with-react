@@ -1,0 +1,12 @@
+.Navbar{
+    display: inline-block;
+    color:blue;
+    text-decoration: none;
+
+        
+}
+ul{
+    display: inline-flex;
+    gap: 30px;
+    text-decoration: none;
+}

@@ -1,0 +1,9 @@
+.container{
+    margin-top: 50px;
+}
+.form{
+    background-color: rgb(156, 156, 179);
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+}
