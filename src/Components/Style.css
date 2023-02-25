@@ -2,6 +2,8 @@
     display: inline-block;
     color:blue;
     text-decoration: none;
+    background-color: cadetblue;
+   width: 100%;
 
         
 }
@@ -9,4 +11,5 @@ ul{
     display: inline-flex;
     gap: 30px;
     text-decoration: none;
+    
 }
