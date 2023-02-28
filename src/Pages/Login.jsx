@@ -13,8 +13,20 @@ function Login() {
 
 
   }
-  useEffect
+  
+  useEffect(() => {
+    const storedEmail = localStorage.getItem('email');
+    const storedPassword = localStorage.getItem('password');
+    if (storedEmail && storedPassword) {
+      setEmail(storedEmail);
+      setPassword(storedPassword);
+    }
+  }, []);
 
+  useEffect(() => {
+    localStorage.setItem('email', email);
+    localStorage.setItem('password', password);
+  }, [email, password]);
 
 
 

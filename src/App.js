@@ -8,11 +8,15 @@ import Help from "./Pages/Help";
 import Jobs from "./Pages/Jobs";
 import WhitePaper from "./Pages/WhitePaper";
 import Login from "./Pages/Login";
+import Fetch from "./Pages/Fetch";
+import Axios from "./Pages/Axios";
+
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Navbar />
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Browse" element={<Browse />} />
@@ -21,6 +25,8 @@ function App() {
           <Route path="/Jobs" element={<Jobs />} />
           <Route path="/whitePaper" element={<WhitePaper />} />
           <Route path="/Login" element={<Login />} />
+          <Route path="/Fetch" element={<Fetch />} />
+          <Route path="/Axios" element={<Axios/>} />
         </Routes>
       </BrowserRouter>
     </div>

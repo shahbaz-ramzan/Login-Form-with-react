@@ -12,20 +12,26 @@ function Navbar() {
           <Link to="/Browse">Browse</Link>
         </li>
         <li>
-          <Link to="/Help">Help</Link>
+          <Link to="/help">Help</Link>
         </li>
         <li>
-          <Link to="/WhitePaper">White Paper</Link>
+          <Link to="/whitePaper">White Paper</Link>
         </li>
         <li>
-          <Link to="/Blog">Blog</Link>
+          <Link to="/blog">Blog</Link>
         </li>
         <li>
-          <Link to="/Jobs">Jobs</Link>
+          <Link to="/jobs">Jobs</Link>
         </li>
         <li>
-          <Link to="Login">Login</Link>
+          <Link to="login">Login</Link>
         </li>
+        <li>
+        <Link to="fetch">Fetch</Link>
+      </li>
+      <li>
+      <Link to="axios">Axios</Link>
+    </li>
       </ul>
     </div>
   );
