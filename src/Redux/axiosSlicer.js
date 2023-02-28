@@ -10,8 +10,8 @@ const axiosSlice = createSlice({
 
     reducers :{
         axiosUsers:(state,action) =>{
-            
-            state.user = action.payload;
+            // debugger
+            state.user = action.payload.data;
         },
     },
 })
